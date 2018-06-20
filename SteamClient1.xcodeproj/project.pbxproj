@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40A667120B19245009F04C7 /* PageDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A667020B19245009F04C7 /* PageDelegates.swift */; };
+		A40AAD7E20CFCA4200C3374E /* BrightnessTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40AAD7D20CFCA4200C3374E /* BrightnessTableVC.swift */; };
 		A41C73F020825A0100A03150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C73EF20825A0100A03150 /* AppDelegate.swift */; };
-		A41C73F220825A0100A03150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C73F120825A0100A03150 /* ViewController.swift */; };
+		A41C73F220825A0100A03150 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C73F120825A0100A03150 /* SettingsVC.swift */; };
 		A41C73F520825A0100A03150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C73F320825A0100A03150 /* Main.storyboard */; };
 		A41C73F720825A0300A03150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41C73F620825A0300A03150 /* Assets.xcassets */; };
 		A41C73FA20825A0300A03150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C73F820825A0300A03150 /* LaunchScreen.storyboard */; };
 		A41C740520825A0300A03150 /* SteamClient1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C740420825A0300A03150 /* SteamClient1Tests.swift */; };
 		A41C741020825A0300A03150 /* SteamClient1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C740F20825A0300A03150 /* SteamClient1UITests.swift */; };
+		A42BD5E720D7428400617A31 /* GammaAndCorrectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BD5E620D7428400617A31 /* GammaAndCorrectionVC.swift */; };
+		A42BD5E920D75A8800617A31 /* BlockSizeAndDataBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BD5E820D75A8800617A31 /* BlockSizeAndDataBits.swift */; };
+		A42BD5EB20D7756B00617A31 /* TestPatternVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BD5EA20D7756B00617A31 /* TestPatternVC.swift */; };
 		A45704A220AECB0300950EEB /* SpuMainClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45704A120AECB0300950EEB /* SpuMainClass.swift */; };
+		A472451B20D6980500AC5CBC /* WhiteBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472451A20D6980500AC5CBC /* WhiteBalanceVC.swift */; };
+		A49637AB20C51DFE00E5941C /* SPUTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49637AA20C51DFE00E5941C /* SPUTabBar.swift */; };
+		A49637AD20C51F0A00E5941C /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49637AC20C51F0A00E5941C /* AboutVC.swift */; };
+		A49637AF20C51F1F00E5941C /* StatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49637AE20C51F1F00E5941C /* StatusVC.swift */; };
+		A4B7B26C20C57535005C2F80 /* FirmwareVersionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7B26B20C57535005C2F80 /* FirmwareVersionVC.swift */; };
+		A4B7B26E20C67611005C2F80 /* FunctionTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7B26D20C67611005C2F80 /* FunctionTableVC.swift */; };
+		A4B7B27020CE5BC1005C2F80 /* BrightnessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7B26F20CE5BC1005C2F80 /* BrightnessVC.swift */; };
 		A4C981E1208B39F900323482 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C981E0208B39F900323482 /* NetworkReachabilityManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A40A667020B19245009F04C7 /* PageDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDelegates.swift; sourceTree = "<group>"; };
+		A40AAD7D20CFCA4200C3374E /* BrightnessTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessTableVC.swift; sourceTree = "<group>"; };
 		A41C73EC20825A0100A03150 /* SteamClient1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamClient1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41C73EF20825A0100A03150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A41C73F120825A0100A03150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A41C73F120825A0100A03150 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		A41C73F420825A0100A03150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A41C73F620825A0300A03150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41C73F920825A0300A03150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,7 +63,17 @@
 		A41C740B20825A0300A03150 /* SteamClient1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteamClient1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41C740F20825A0300A03150 /* SteamClient1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamClient1UITests.swift; sourceTree = "<group>"; };
 		A41C741120825A0300A03150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42BD5E620D7428400617A31 /* GammaAndCorrectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GammaAndCorrectionVC.swift; sourceTree = "<group>"; };
+		A42BD5E820D75A8800617A31 /* BlockSizeAndDataBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSizeAndDataBits.swift; sourceTree = "<group>"; };
+		A42BD5EA20D7756B00617A31 /* TestPatternVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPatternVC.swift; sourceTree = "<group>"; };
 		A45704A120AECB0300950EEB /* SpuMainClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpuMainClass.swift; sourceTree = "<group>"; };
+		A472451A20D6980500AC5CBC /* WhiteBalanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBalanceVC.swift; sourceTree = "<group>"; };
+		A49637AA20C51DFE00E5941C /* SPUTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPUTabBar.swift; sourceTree = "<group>"; };
+		A49637AC20C51F0A00E5941C /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		A49637AE20C51F1F00E5941C /* StatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusVC.swift; sourceTree = "<group>"; };
+		A4B7B26B20C57535005C2F80 /* FirmwareVersionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareVersionVC.swift; sourceTree = "<group>"; };
+		A4B7B26D20C67611005C2F80 /* FunctionTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTableVC.swift; sourceTree = "<group>"; };
+		A4B7B26F20CE5BC1005C2F80 /* BrightnessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessVC.swift; sourceTree = "<group>"; };
 		A4C981E0208B39F900323482 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +105,17 @@
 		A41C73E320825A0100A03150 = {
 			isa = PBXGroup;
 			children = (
+				A49637AC20C51F0A00E5941C /* AboutVC.swift */,
+				A49637AE20C51F1F00E5941C /* StatusVC.swift */,
+				A49637AA20C51DFE00E5941C /* SPUTabBar.swift */,
+				A4B7B26B20C57535005C2F80 /* FirmwareVersionVC.swift */,
+				A4B7B26D20C67611005C2F80 /* FunctionTableVC.swift */,
+				A42BD5E620D7428400617A31 /* GammaAndCorrectionVC.swift */,
+				A4B7B26F20CE5BC1005C2F80 /* BrightnessVC.swift */,
+				A40AAD7D20CFCA4200C3374E /* BrightnessTableVC.swift */,
+				A472451A20D6980500AC5CBC /* WhiteBalanceVC.swift */,
+				A42BD5E820D75A8800617A31 /* BlockSizeAndDataBits.swift */,
+				A42BD5EA20D7756B00617A31 /* TestPatternVC.swift */,
 				A41C73EE20825A0100A03150 /* SteamClient1 */,
 				A41C740320825A0300A03150 /* SteamClient1Tests */,
 				A41C740E20825A0300A03150 /* SteamClient1UITests */,
@@ -102,9 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				A41C73EF20825A0100A03150 /* AppDelegate.swift */,
-				A41C73F120825A0100A03150 /* ViewController.swift */,
+				A41C73F120825A0100A03150 /* SettingsVC.swift */,
 				A41C73F320825A0100A03150 /* Main.storyboard */,
 				A45704A120AECB0300950EEB /* SpuMainClass.swift */,
+				A40A667020B19245009F04C7 /* PageDelegates.swift */,
 				A41C73F620825A0300A03150 /* Assets.xcassets */,
 				A41C73F820825A0300A03150 /* LaunchScreen.storyboard */,
 				A41C73FB20825A0300A03150 /* Info.plist */,
@@ -262,10 +298,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A472451B20D6980500AC5CBC /* WhiteBalanceVC.swift in Sources */,
+				A49637AD20C51F0A00E5941C /* AboutVC.swift in Sources */,
+				A4B7B26E20C67611005C2F80 /* FunctionTableVC.swift in Sources */,
+				A4B7B26C20C57535005C2F80 /* FirmwareVersionVC.swift in Sources */,
+				A4B7B27020CE5BC1005C2F80 /* BrightnessVC.swift in Sources */,
+				A42BD5EB20D7756B00617A31 /* TestPatternVC.swift in Sources */,
+				A40AAD7E20CFCA4200C3374E /* BrightnessTableVC.swift in Sources */,
 				A45704A220AECB0300950EEB /* SpuMainClass.swift in Sources */,
-				A41C73F220825A0100A03150 /* ViewController.swift in Sources */,
+				A41C73F220825A0100A03150 /* SettingsVC.swift in Sources */,
 				A4C981E1208B39F900323482 /* NetworkReachabilityManager.swift in Sources */,
 				A41C73F020825A0100A03150 /* AppDelegate.swift in Sources */,
+				A42BD5E720D7428400617A31 /* GammaAndCorrectionVC.swift in Sources */,
+				A49637AB20C51DFE00E5941C /* SPUTabBar.swift in Sources */,
+				A42BD5E920D75A8800617A31 /* BlockSizeAndDataBits.swift in Sources */,
+				A49637AF20C51F1F00E5941C /* StatusVC.swift in Sources */,
+				A40A667120B19245009F04C7 /* PageDelegates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GU36JU65F;
 				INFOPLIST_FILE = SteamClient1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GU36JU65F;
 				INFOPLIST_FILE = SteamClient1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
